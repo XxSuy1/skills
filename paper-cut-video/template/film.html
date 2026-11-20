@@ -1,0 +1,27 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>纸剪定格 · 最小模板</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#9fd8ef}
+body{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;color:#2d2547;-webkit-font-smoothing:antialiased}
+#stage{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;background:#9fd8ef}
+.abs{position:absolute;left:0;top:0}
+.full{position:absolute;left:0;top:0;width:1920px;height:1080px}
+.scene{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden}
+.pp{position:absolute;transform-origin:50% 50%}
+.pp-sh{position:absolute;left:0;top:0;width:100%;height:100%}
+.pp-l{position:absolute;left:0;top:0;width:100%;height:100%}
+.pp-face{background-repeat:repeat;background-size:1024px 1024px}
+.pp-in{position:absolute;left:0;top:0;width:100%;height:100%}
+.disp{font-family:"STHupo","Microsoft YaHei",sans-serif;font-weight:400}
+.bold{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;font-weight:700}
+.num{font-family:"Bahnschrift","Segoe UI",sans-serif;font-weight:700}
+svg{overflow:visible}
+img.ft{position:absolute;display:block}
+.vig{background:radial-gradient(ellipse 75% 70% at 46% 42%,rgba(0,0,0,0) 55%,rgba(20,40,70,.16) 100%)}
+.warm{background:radial-gradient(ellipse 60% 55% at 18% 8%,rgba(255,244,214,.22),rgba(255,244,214,0) 70%)}
+.grain{background-size:1920px 1080px;opacity:.55;mix-blend-mode:soft-light}
+</style>
+<div id="stage"></div>
+<script src="film.js"></script>
